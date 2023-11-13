@@ -35,8 +35,8 @@ for (let i = 1; i <= cantidadDeGatos; i++) {
 console.log("");
 console.log("EJERCICIO 3:");
 
-var cantidadDeGatos = 8;
-var cantidadDePasos = 6;
+var cantidadDeGatos = 10;
+var cantidadDePasos = 4;
 
 for (let i = 1; i <= cantidadDeGatos; i++) {
     if (i % 2 === 0) {
