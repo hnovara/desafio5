@@ -6,11 +6,11 @@ var cantidadDeGatos = 10;
 for (let index = 1; index <= cantidadDeGatos; index++) {
     const cat = "Gato #";
     if (index % 2 === 0) {
-        console.log(cat +`${index}: 😸`)
+        console.log(cat +`${index}: 😸`);
     } else if (index % 3 === 0) {
-        console.log(cat +`${index}: 😹`)
+        console.log(cat +`${index}: 😹`);
     } else {
-        console.log(cat +`${index}: 😺`)
+        console.log(cat +`${index}: 😺`);
     }
 }
 
@@ -35,15 +35,15 @@ for (let i = 1; i <= cantidadDeGatos; i++) {
 console.log("");
 console.log("EJERCICIO 3:");
 
-var cantidadDeGatos = 10;
-var cantidadDePasos = 4;
+var cantidadDeGatos = 8;
+var cantidadDePasos = 6;
 
 for (let i = 1; i <= cantidadDeGatos; i++) {
     const gato = "Gato #";
-    if (index % 2 === 0) {
-        gatoColor = ("🐈‍⬛")
+    if (cantidadDeGatos % 2 === 0) {
+        var gatoColor = ("🐎"); // ** En mi PC funciona el emoji del gato negro, lo cambie por otro**
     } else {
-        gatoColor = ("🐈")
+        var gatoColor = ("🐈");
     }
     const gatoConNum = gato+`${i}: ${gatoColor}`;
     let gatoConPasos = gatoConNum; 
@@ -52,28 +52,4 @@ for (let i = 1; i <= cantidadDeGatos; i++) {
     }
     console.log(gatoConPasos);
 }
-
-
-
-
-
-
-// Adaptar el ejercicio anterior para que se muestren 2 gatos alternadamente:
-// var cantidadDeGatos = 10;
-// var cantidadDePasos = 4;
-// ```
-// Gato #1: 🐈 🐾🐾🐾🐾
-// Gato #2: 🐈‍⬛ 🐾🐾🐾🐾
-// Gato #3: 🐈 🐾🐾🐾🐾
-// Gato #4: 🐈‍⬛ 🐾🐾🐾🐾
-// Gato #5: 🐈 🐾🐾🐾🐾
-// Gato #6: 🐈‍⬛ 🐾🐾🐾🐾
-// Gato #7: 🐈 🐾🐾🐾🐾
-// Gato #8: 🐈‍⬛ 🐾🐾🐾🐾
-// Gato #9: 🐈 🐾🐾🐾🐾
-// Gato #10: 🐈‍⬛ 🐾🐾🐾🐾
-// ```
-
-
-
 
