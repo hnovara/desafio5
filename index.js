@@ -39,7 +39,7 @@ var cantidadDeGatos = 8;
 var cantidadDePasos = 6;
 
 for (let i = 1; i <= cantidadDeGatos; i++) {
-    if (cantidadDeGatos % 2 === 0) {
+    if (i % 2 === 0) {
         gatoColor = ("🐎"); // ** En mi PC funciona el emoji del gato negro, lo cambie por otro**
     } else {
         gatoColor = ("🐈");
