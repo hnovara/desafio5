@@ -40,7 +40,7 @@ var cantidadDePasos = 6;
 
 for (let i = 1; i <= cantidadDeGatos; i++) {
     if (i % 2 === 0) {
-        gatoColor = ("🐎"); // ** En mi PC funciona el emoji del gato negro, lo cambie por otro**
+        gatoColor = ("🐎"); // ** En mi PC no funciona el emoji del gato negro, lo cambie por otro**
     } else {
         gatoColor = ("🐈");
     }
