@@ -39,12 +39,12 @@ var cantidadDeGatos = 8;
 var cantidadDePasos = 6;
 
 for (let i = 1; i <= cantidadDeGatos; i++) {
-    const gato = "Gato #";
     if (cantidadDeGatos % 2 === 0) {
-        var gatoColor = ("🐎"); // ** En mi PC funciona el emoji del gato negro, lo cambie por otro**
+        gatoColor = ("🐎"); // ** En mi PC funciona el emoji del gato negro, lo cambie por otro**
     } else {
-        var gatoColor = ("🐈");
+        gatoColor = ("🐈");
     }
+    const gato = "Gato #";
     const gatoConNum = gato+`${i}: ${gatoColor}`;
     let gatoConPasos = gatoConNum; 
     for (let y = 0; y < cantidadDePasos; y++) {
@@ -52,4 +52,3 @@ for (let i = 1; i <= cantidadDeGatos; i++) {
     }
     console.log(gatoConPasos);
 }
-
